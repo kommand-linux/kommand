@@ -49,11 +49,11 @@ dev = [
 kommand = "kommand.main:main"
 
 [project.urls]
-Homepage = "https://github.com/kommand-dev/kommand"
-Documentation = "https://github.com/kommand-dev/kommand/tree/main/docs"
-Repository = "https://github.com/kommand-dev/kommand"
-Issues = "https://github.com/kommand-dev/kommand/issues"
-Changelog = "https://github.com/kommand-dev/kommand/blob/main/CHANGELOG.md"
+Homepage = "https://github.com/kommand-linux/kommand"
+Documentation = "https://github.com/kommand-linux/kommand/tree/main/docs"
+Repository = "https://github.com/kommand-linux/kommand"
+Issues = "https://github.com/kommand-linux/kommand/issues"
+Changelog = "https://github.com/kommand-linux/kommand/blob/main/CHANGELOG.md"
 
 [build-system]
 requires = ["setuptools>=69.0", "wheel"]
