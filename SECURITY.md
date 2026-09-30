@@ -18,7 +18,7 @@ Security fixes are applied to supported release lines where practical. Users sho
 
 If you believe you have discovered a security vulnerability in Kommand, report it privately:
 
-**Email:** [security@kommand.linux](mailto:security@kommand.linux)
+**Email:** [security@kommand.dev](mailto:security@kommand.dev)
 
 ### What to Include
 
