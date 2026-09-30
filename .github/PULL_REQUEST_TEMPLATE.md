@@ -29,37 +29,29 @@ Closes #
 
 ## Testing
 
-<!-- Describe how this PR was tested. Check all applicable items and include relevant commands or environments. -->
+<!-- CI checks run automatically for pull requests. Check the automated checks after they pass and select the applicable manual verification options. -->
 
-### Automated tests
+### Automated checks
 
-- [ ] Unit tests added / updated
-- [ ] Integration tests added / updated
-- [ ] End-to-end / system tests added / updated
-- [ ] Existing tests pass
+- [ ] Lint (`ruff check`) passes
+- [ ] Format check (`ruff format --check`) passes
+- [ ] Type check (`mypy`) passes
+- [ ] Tests (`pytest`) pass
+- [ ] Package build (`python -m build`) passes
 
 ### Manual verification
 
 - [ ] Manually tested
+- [ ] Tested on specific distribution(s):
 - [ ] Not applicable
 
-**Test command(s):**
+**Test / verification details:**
 
-```text
-# Example:
-# pytest tests/unit/
-# pytest tests/integration/
-```
-
-**Environment:**
-
-- OS / distribution:
-- Python version:
-- Other relevant environment details:
+<!-- Include commands, environments, or other verification details that are relevant to this PR. -->
 
 ## Checklist
 
-- [ ] Code follows project style (`ruff check` passes)
+- [ ] Code follows project style
 - [ ] No raw tracebacks shown to users
 - [ ] No credentials logged or stored
 - [ ] No package managers called directly (all package-manager operations use an adapter)
