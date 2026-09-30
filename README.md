@@ -1,1 +1,3 @@
-# KOMMAND 1.0
+# Kommand
+
+Universal, distro-agnostic TUI for everyday Linux system management.
